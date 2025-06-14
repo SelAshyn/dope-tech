@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Head from 'next/head';
 import './globals.css'
 import Navbar from '@/component/Navbar';
+import Top from '@/component/top/top';
+import Main from '@/component/Main/main'; 
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -23,10 +25,12 @@ export default function RootLayout({
       </Head>
      
       <body>
+        <Top />
          <Navbar />
+          <Main />
           {children}
         <footer>
-          <p>&copy; 2023 Travel. All rights reserved.</p>
+          <center><p>&copy; 2023 Travel. All rights reserved.</p></center>
         </footer>
       </body>
     </html>
