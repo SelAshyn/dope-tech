@@ -1,0 +1,68 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 100px;
+  background-color: #2e83ff;
+  color: white;
+}
+
+.content {
+  max-width: 800px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.primary,
+.secondary {
+  padding: 12px 30px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.primary {
+  background-color: white;
+  color: #2e83ff;
+  width: 300px;
+}
+
+.secondary {
+  background-color: transparent;
+  color: white;
+  width: 300px;
+  border: 2px solid white;
+}
+
+.primary:hover {
+  background-color: #e6e6e6;
+}
+
+.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.imageContainer {
+  flex-shrink: 0;
+}
+
+.image {
+  width: auto;
+  height: auto;
+}

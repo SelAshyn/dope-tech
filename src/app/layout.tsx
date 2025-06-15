@@ -4,6 +4,8 @@ import './globals.css'
 import Navbar from '@/component/Navbar';
 import Top from '@/component/top/top';
 import Main from '@/component/Main/main'; 
+import Into from '@/component/into/into';
+import React from 'react';
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -28,6 +30,7 @@ export default function RootLayout({
         <Top />
          <Navbar />
           <Main />
+          <Into />
           {children}
         <footer>
           <center><p>&copy; 2023 Travel. All rights reserved.</p></center>
