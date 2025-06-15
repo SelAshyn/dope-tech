@@ -6,7 +6,9 @@ const Top = () => {
   return (
     <div className="top">
       <div className="info">
-        <i className="bi bi-headset"></i> +977 984-1234567
+        <div className="infon">
+          <i className="bi bi-headset"></i> +977 984-1234567
+        </div>
         <br /> <br />
        <div className="infoi">
          <i className="bi bi-envelope"></i> example@example.com
