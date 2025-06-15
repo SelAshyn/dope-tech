@@ -16,7 +16,9 @@ const Top = () => {
       </div>
       <br />
       <div className="login">
-        <a href="#"><i className="bi bi-person"></i> Login</a>
+        <div className="loginn">
+          <a href="#"><i className="bi bi-person"></i> Login</a>
+        </div>
         <br /><br />
         <div className="sign">
             <a href="#"><i className="bi bi-person-plus"></i> Register</a>
