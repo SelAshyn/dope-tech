@@ -22,11 +22,12 @@ i
 }
 .login
 {
-    padding: 5px 0px 5 900px;
+    padding: 5px 0px 5 0px;
     font-size: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-left: 900px;
 }
 .login .sign
 {
