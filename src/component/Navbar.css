@@ -41,7 +41,7 @@ nav{
 .inp input{
   width: 100%;
   padding: 10px;
-  border-radius:  5 0px 0px 5;
+  border-radius:  5px 0px 0px 5px;
   color: #000000;
   outline: none;
   font-weight: 800;
