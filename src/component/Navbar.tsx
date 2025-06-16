@@ -9,7 +9,8 @@ const Navbar = () => {
   
   return (
     <>
-      <nav>
+      <center>
+        <nav>
     <div className="navbar">
       <div className="logo"><a href="#"><img src="https://raw.githubusercontent.com/SelAshyn/dope-tech/refs/heads/main/src/component/delete.png" alt="" width={80} height={80} /> Dope Tech</a></div>
       <div className="inp">
@@ -23,6 +24,7 @@ const Navbar = () => {
       </div>
     </div>
   </nav>
+      </center>
   </>
   )
 }

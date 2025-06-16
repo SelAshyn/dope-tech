@@ -24,6 +24,10 @@ const Main = () => {
           height={500}
           className={styles.image}
         />
+        <div className={styles.imageOverlay}>
+          <h1>Hello</h1>
+          <p>This is an overlay text</p>
+        </div>
       </div>
     </section>
   );
