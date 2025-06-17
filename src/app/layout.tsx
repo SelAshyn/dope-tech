@@ -8,6 +8,9 @@ import Into from '@/component/into/into';
 import React from 'react';
 import Categories from '@/component/CategoryGrid/CategoryGrid';
 import Product from '@/component/ProductGrid/ProductGrid';
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -30,6 +33,7 @@ export default function RootLayout({
       </Head>
      
       <body>
+        <div className={inter.className}>
         <Top />
          <Navbar />
           <Main />
@@ -40,6 +44,7 @@ export default function RootLayout({
         <footer>
           <center><p></p></center>
         </footer>
+        </div>
       </body>
     </html>
   )
