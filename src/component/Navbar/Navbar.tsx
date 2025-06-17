@@ -2,8 +2,11 @@
 import 'boxicons/css/boxicons.min.css';
 import React from 'react';
 import './Navbar.css';
+import { Arima } from 'next/font/google';
 
-
+const poppins = Arima({
+  weight: ['100', '200', '300', '400', '500', '600', '700'],
+  subsets: ['latin'],});
 
 const Navbar = () => {
   
@@ -11,7 +14,7 @@ const Navbar = () => {
     <>
       <center>
         <nav>
-    <div className="navbar">
+    <div style={{ fontFamily: poppins.className }} className="navbar">
       <div className="logo"><a href="#"><img src="https://raw.githubusercontent.com/SelAshyn/dope-tech/refs/heads/main/src/component/Navbar/delete.png" alt="" width={80} height={80} /> Dope Tech </a></div>
       <div className="inp">
         <input type="text" placeholder='Type here' name="" id="" /><button><i className='bx bx-search'></i></button>

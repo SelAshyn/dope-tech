@@ -8,9 +8,9 @@ import Into from '@/component/into/into';
 import React from 'react';
 import Categories from '@/component/CategoryGrid/CategoryGrid';
 import Product from '@/component/ProductGrid/ProductGrid';
-import { Inter } from 'next/font/google';
+import { Arima } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const arima = Arima({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -33,7 +33,7 @@ export default function RootLayout({
       </Head>
      
       <body>
-        <div className={inter.className}>
+        <div style={{ fontFamily: arima.className }}>
         <Top />
          <Navbar />
           <Main />
