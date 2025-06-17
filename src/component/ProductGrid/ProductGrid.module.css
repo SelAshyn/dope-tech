@@ -1,0 +1,99 @@
+.section {
+  padding: 50px 20px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+
+.heading {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  animation: example 5s ease-in-out infinite;
+}
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: rgb(0, 117, 78);}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  gap: 40px;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-15px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
+.image {
+  max-height: 220px;
+  object-fit: contain;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.info .brand {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.info .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 4px 0;
+}
+
+.info .category {
+  background: red;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 8px;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  margin: 8px 0;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 8px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #333;
+}

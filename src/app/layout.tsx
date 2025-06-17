@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import Head from 'next/head';
 import './globals.css'
-import Navbar from '@/component/Navbar';
+import Navbar from '@/component/Navbar/Navbar';
 import Top from '@/component/top/top';
 import Main from '@/component/Main/main'; 
 import Into from '@/component/into/into';
 import React from 'react';
+import Categories from '@/component/CategoryGrid/CategoryGrid';
+import Product from '@/component/ProductGrid/ProductGrid';
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -32,6 +34,8 @@ export default function RootLayout({
          <Navbar />
           <Main />
           <Into />
+          <Categories />
+          <Product />
           {children} 
         <footer>
           <center><p></p></center>
