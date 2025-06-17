@@ -8,9 +8,6 @@ import Into from '@/component/into/into';
 import React from 'react';
 import Categories from '@/component/CategoryGrid/CategoryGrid';
 import Product from '@/component/ProductGrid/ProductGrid';
-import { Arima } from 'next/font/google';
-
-const arima = Arima({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Travel',
@@ -33,7 +30,6 @@ export default function RootLayout({
       </Head>
      
       <body>
-        <div style={{ fontFamily: arima.className }}>
         <Top />
          <Navbar />
           <Main />
@@ -44,7 +40,6 @@ export default function RootLayout({
         <footer>
           <center><p></p></center>
         </footer>
-        </div>
       </body>
     </html>
   )
