@@ -12,7 +12,7 @@ const Navbar = () => {
       <center>
         <nav>
     <div className="navbar">
-      <div className="logo"><a href="#"><img src="https://raw.githubusercontent.com/SelAshyn/dope-tech/refs/heads/main/src/component/delete.png" alt="" width={80} height={80} /> Dope Tech </a></div>
+      <div className="logo"><a href="#"><img src="https://raw.githubusercontent.com/SelAshyn/dope-tech/refs/heads/main/src/component/Navbar/delete.png" alt="" width={80} height={80} /> Dope Tech </a></div>
       <div className="inp">
         <input type="text" placeholder='Type here' name="" id="" /><button><i className='bx bx-search'></i></button>
       </div>
